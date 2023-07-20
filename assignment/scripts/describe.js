@@ -26,11 +26,12 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// This line of code sets a variable for the number "1"
-// Then it directs that the number variable "1" be increased by 1 (++= is number += 1), to "2"
-// Then creates a condition that will asses whether our number variable is greater or equal to 2
-// Then console.log reports on the condition, in the console it shows that it is equal to 2.
-// Console log reports 'yes'
+// The first line of code sets a value of "Dane" to the variable "name"
+// The second line of code creates a condition that uses the operator "===" 
+// which will check the strings to assess if they are exactly the same.
+// "Dane" and "Mary" are not the same string value so we move to the else condition
+// the console.log, will then produce the words "How do you do?" since the if condition was not met
+
 
 //CODE
 /*
@@ -46,11 +47,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// The first line of code sets a binding of "Dane" to the variable "name"
-// The second line of code creates a condition that uses the operator "===" 
-// which will check the strings to assess if they are exactly the same.
-// "Dane" and "Mary" are not the same string value so we move to the else condition
-// the console.log, will then produce the words "How do you do?" since the if condition was not met
+// The code creates a variable "secret" without a value, the sets the value of variable "code" to the number "123".
+// the first if condition says if Code is exacly "123", then the variable secret gets labeled 'super
+// and the variable code is mutiplied by 2, which means the code is 246
+// the next if condition checks whether "code" which is now 246, is greater than 250
+// if it was, it would change the variable secret to "duper" but since 246 is not greater than
+// 250, when the console log is run it reports "super" 
 
 //CODE
 /*
@@ -72,10 +74,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
 //
+//
+//
+//
+// 
 
 //CODE
 /*
