@@ -74,11 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
-// 
+// Alright so there are 3 defined variables.
+// isStudent is a boolean value true, age is the number "34" zip is the number 55407
+// The condition presented assesses whether isStudent is exactly (===) true AND (&&) if the Zip is greater than 8000
+// at the same time. The answer is that it is not given the assigned values, so on to the next conditional.
+// The next else if checks if the boolean value of isStudent is "false" OR if the variable age is less than 30. 
+// The variable is NOT false, and the age is greater than 30, so we drop down to the next conditional.
+// the next else if assesses if isStudent is true, which it is, which means the console log will run "Welcome to Prime"
+// The last line will not run since the else is dependent on the line above "failing"
 
 //CODE
 /*
