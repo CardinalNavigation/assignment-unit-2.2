@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // This line of code sets a variable for the number "1"
-// Then it directs that the number variable "1" be increased by 2 (++=), to "3"
-// Then creates a condition that will asses whether our number variable is greater than 2
-// Then console.log reports on the condition, in the console it shows that it is greater than 2.
+// Then it directs that the number variable "1" be increased by 1 (++= is number += 1), to "2"
+// Then creates a condition that will asses whether our number variable is greater or equal to 2
+// Then console.log reports on the condition, in the console it shows that it is equal to 2.
 // Console log reports 'yes'
 
 //CODE
