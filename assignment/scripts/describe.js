@@ -80,7 +80,7 @@ console.log(secret)
 // at the same time. The answer is that it is not given the assigned values, so on to the next conditional.
 // The next else if checks if the boolean value of isStudent is "false" OR if the variable age is less than 30. 
 // The variable is NOT false, and the age is greater than 30, so we drop down to the next conditional.
-// the next else if assesses if isStudent is true, which it is, which means the console log will run "Welcome to Prime"
+// the next else if assesses if isStudent is true, which it is, which means the console.log will run "Welcome to Prime"
 // The last line will not run since the else is dependent on the line above "failing"
 
 //CODE
@@ -138,10 +138,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX- colorOne and colorTwo have the wrong value, they should be switched.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX- This should change both colorOne and ColorTwo to purple, it only changes colorOne.
 if (mix === true) {
   colorOne = 'purple';
 }
