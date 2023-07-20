@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// This line of code sets a variable for the number "1"
+// Then it directs that the number variable "1" be increased by 2 (++=), to "3"
+// Then creates a condition that will asses whether our number variable is greater than 2
+// Then console.log reports on the condition, in the console it shows that it is greater than 2.
+// Console log reports 'yes'
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The first line of code sets a binding of "Dane" to the variable "name"
+// The second line of code creates a condition that uses the operator "===" 
+// which will check the strings to assess if they are exactly the same.
+// "Dane" and "Mary" are not the same string value so we move to the else condition
+// the console.log, will then produce the words "How do you do?" since the if condition was not met
 
 //CODE
 /*
@@ -113,9 +115,9 @@ if (isStudent === true && zip > 80000 ) {
 /*
 let number = 1;
 
-// FIX - number-- decrements number, but the instructions ask to increment. 
+// FIX - number-- decrements number, but the instructions ask to increment.
 // Should be number++.
-number--; 
+number--;
 
 if (number >= 2) {
   console.log('yes');
