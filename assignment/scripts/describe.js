@@ -138,13 +138,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
-// FIX- colorOne and colorTwo have the wrong value, they should be switched.
+// FIX- colorOne and colorTwo have the wrong value, they should be switched. One is blue and Two is red.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
-// FIX- This should change both colorOne and ColorTwo to purple, it only changes colorOne.
+
 if (mix === true) {
+// FIX- This should change both colorOne and ColorTwo to purple, it only changes colorOne.
   colorOne = 'purple';
 }
 */
@@ -157,6 +158,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//FIX the operator "||" is an OR statement, it needs to be changed to "&&"
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -170,7 +172,9 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX the operator here should be >= "greater than" not <= "less than", it can be changed to if(age >= minAge)
 if(minAge <= age) {
+//FIX This console.log "no entry" should be switched with the one below it so that the console log says "enter" after running the first conditional
   console.log('no entry');
 } else {
   console.log('enter');
