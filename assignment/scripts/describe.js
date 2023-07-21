@@ -145,7 +145,7 @@ let mix = true;
 
 
 if (mix === true) {
-// FIX- This should change both colorOne and ColorTwo to purple, it only changes colorOne.
+// FIX- Per the instructions-This should change both colorOne and ColorTwo to purple, it only changes colorOne.
   colorOne = 'purple';
 }
 */
@@ -174,7 +174,7 @@ const minAge = 21;
 
 //FIX the operator here should be >= "greater than" not <= "less than", it can be changed to if(age >= minAge)
 if(minAge <= age) {
-//FIX This console.log "no entry" should be switched with the one below it so that the console log says "enter" after running the first conditional
+//FIX This console.log "no entry" should be switched with the one below it so that the console log says "enter" after running the first conditional and "no entry" after the second
   console.log('no entry');
 } else {
   console.log('enter');
