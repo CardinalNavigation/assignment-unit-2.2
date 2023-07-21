@@ -47,11 +47,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// The code creates a variable "secret" without a value, the sets the value of variable "code" to the number "123".
-// the first if condition says if Code is exacly "123", then the variable secret gets labeled 'super
+// The code creates a variable "secret" without a value, the sets the value of variable "code" to the number 123.
+// the first if condition says if Code is exacly "123", then the variable secret gets a value of 'super'
 // and the variable code is mutiplied by 2, which means the code is 246
 // the next if condition checks whether "code" which is now 246, is greater than 250
-// if it was, it would change the variable secret to "duper" but since 246 is not greater than
+// if it was, it would change the value of variable secret to "duper" but since 246 is not greater than
 // 250, when the console log is run it reports "super" 
 
 //CODE
@@ -77,11 +77,11 @@ console.log(secret)
 // Alright so there are 3 defined variables.
 // isStudent is a boolean value true, age is the number "34" zip is the number 55407
 // The condition presented assesses whether isStudent is exactly (===) true AND (&&) if the Zip is greater than 8000
-// at the same time. The answer is that it is not given the assigned values, so on to the next conditional.
+// at the same time. It is not true given the assigned values, so on to the next conditional.
 // The next else if checks if the boolean value of isStudent is "false" OR if the variable age is less than 30. 
-// The variable is NOT false, and the age is greater than 30, so we drop down to the next conditional.
-// the next else if assesses if isStudent is true, which it is, which means the console.log will run "Welcome to Prime"
-// The last line will not run since the else is dependent on the line above "failing"
+// The variable isStudent is NOT false, and the age is greater than 30, so we drop down to the next conditional.
+// the next else if assesses if isStudent is true  which it is, which means the console.log will run "Welcome to Prime"
+// The last line will not run since the else is dependent on the line above failing. 
 
 //CODE
 /*
